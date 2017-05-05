@@ -2,7 +2,10 @@
 
 The power of using "Cout" to display soemthing on the console
 ```cpp
-cout << "" << endl;
+int main()
+{
+  cout << "" << endl;
+}
 ```
 
 ## Tree.cpp
