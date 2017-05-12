@@ -4,12 +4,12 @@
 
 ```
 a. State that the program calculates the product of 3 integers
-b. Declare 4 variables x, y, z, and result. Set x, y and z to be integer type
-and result to be double type
+b. Declare 4 variables *x*, *y*, *z*, and *result*. Set x, y and z to be *integer* type
+and result to be *double* type
 c. Prompt user to enter 3 integers
 d. Read the three integers from keyboards and store in variables x,y and z
-e. Calculate and store the product of the three integers in the variable result
-f. Display the value of result of screen
+e. Calculate and store the product of the three integers in the variable *result*
+f. Display the value of *result* of screen
 ```
 
 ## Question 2
