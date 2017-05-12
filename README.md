@@ -13,3 +13,7 @@ int main()
 }
 
 ```
+
+## Lectures
+1. [Lecture 01](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/Lecture01)
+2. [Lecture 02](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/Lecture02)
