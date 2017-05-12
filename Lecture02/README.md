@@ -3,13 +3,14 @@
 ## Question 1
 
 
-a. State that the program calculates the product of 3 integers
-b. Declare 4 variables *x*, *y*, *z*, and *result*. Set x, y and z to be *integer* type
-and result to be *double* type
-c. Prompt user to enter 3 integers
-d. Read the three integers from keyboards and store in variables x,y and z
-e. Calculate and store the product of the three integers in the variable *result*
-f. Display the value of *result* of screen
+1. State that the program calculates the product of 3 integers
+2. Declare 4 variables **x**, **y**, **z**, and **result**.
+Set x, y and z to be **integer** type
+and result to be **double** type
+3. Prompt user to enter 3 integers
+4. Read the three integers from keyboards and store in variables x,y and z
+5. Calculate and store the product of the three integers in the variable **result**
+6. Display the value of **result** of screen
 
 
 ## Question 2
