@@ -1,4 +1,4 @@
-# Lecture 02
+# Lecture 02 (Variable and Cin)
 
 ## Question 1
 
