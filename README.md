@@ -19,3 +19,6 @@ int main()
 2. [Lecture 02](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/Lecture02)
 3. [Lecture 03](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/Lecture03)
 4. [Lecture 04](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/Lecture04)
+
+## Lab Test
+1. [Lab Test01](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest01)

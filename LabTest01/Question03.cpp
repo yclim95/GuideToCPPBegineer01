@@ -29,7 +29,7 @@ int main()
     cout << "Average marks: " << abs(average) << "%" << endl;
 
     //If average == 40 is pass
-    if (average >= 40 && average <= 100)
+    if (abs(average) >= 40 && abs(average) <= 100)
     {
         cout << "Pass!" << endl;
     }
