@@ -10,11 +10,14 @@ words "**is smaller**." and prints bigger number followed by the words
 
 **Output**
 
-![Question 1 More Than]()
+![Question 1 More Than](https://github.com/yclim95/GuideToCPPBegineer01/blob/master/LabTest01/LabTest01Q01PartA.png)
 
-![Question 1 Less Than]()
 
-![Question 1 Equal]()
+![Question 1 Less Than](https://github.com/yclim95/GuideToCPPBegineer01/blob/master/LabTest01/LabTest01Q01PartB.png)
+
+
+![Question 1 Equal](https://github.com/yclim95/GuideToCPPBegineer01/blob/master/LabTest01/LabTest01Q01PartC.png)
+
 
 
 2. Write a program to display the **month** corresponding to an alphabet
@@ -24,7 +27,9 @@ should display the month that begins with that alphabet, in this case its
 
 **Output**
 
-![Question 2]()
+![Question 2](https://github.com/yclim95/GuideToCPPBegineer01/blob/master/LabTest01/LabTest01Q02.png)
+
+
 
 3. Write the program that prompts the user to enter 3 marks for their
 assignments (Assignment 1, 2, 3). Calculate the total and average.
@@ -32,6 +37,7 @@ Display the **marks**, **total** and **average**. Display "Pass" or "Fail", give
 
 **Output**
 
-![Question 3 Positive]()
+![Question 3 Positive](https://github.com/yclim95/GuideToCPPBegineer01/blob/master/LabTest01/LabTest01Q03PartA.png)
 
-![Question 3 Negative]()
+
+![Question 3 Negative](https://github.com/yclim95/GuideToCPPBegineer01/blob/master/LabTest01/LabTest01Q03PartB.png)
