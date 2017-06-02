@@ -28,7 +28,9 @@ Create C ++ program using a **FOR** structure, run the loop for 10 times
 ![Question 2 Part 1 For Loop](https://github.com/yclim95/GuideToCPPBegineer01/blob/master/LabTest02/LabTest02Q02Part01.PNG)
 
 
+
 3. Based on Q2, But use a **Do...WHILE** structure prompt the user for the temperatures. User can decide to exit the program by entering -1.
+
 
 
 **Output**
