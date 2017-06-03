@@ -28,4 +28,5 @@ int main()
 ## Compile Program using clang (Terminal)
 ```vim
 $ g++ -o example example.cpp
+$ ./example
 ```
