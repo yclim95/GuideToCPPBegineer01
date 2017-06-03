@@ -24,3 +24,8 @@ int main()
 ## Lab Test
 1. [Lab Test01](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest01)
 2. [Lab Test02](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest02)
+
+## Compile Program using clang (Terminal)
+```bash
+$ g++ -o example example.cpp
+```
