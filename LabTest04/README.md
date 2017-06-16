@@ -12,6 +12,8 @@ Write a program that:
 14.5| 90.1 |21.8 |34.5 |11.0 |78.3 |30.0 |5.4 |3.1 |67.2
 
 2. Display how many numbers in the array that are in these 3 categories:
+
+
 ...**a.** Less than 20.0
 ...**b.** between 20.0 and 30.0
 ...**c.** more than 30.0
