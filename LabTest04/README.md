@@ -7,6 +7,8 @@ Write a program that:
 
 1. has an **array** with these values:
 
+|:14.5:| |:90.1:| |:21.8:| |:34.5:| |:11.0:| |:78.3:| |:30.0:| |:5.4:| |:3.1:| |:67.2:|
+
 2. Display how many numbers in the array that are in these 3 categories:
 ..a. Less than 20.0
 ..b. between 20.0 and 30.0
@@ -31,16 +33,16 @@ Write a program that:
 
 **Question1 : Found**
 
-![Question01  Found]()
+![Question01  Found](https://github.com/yclim95/GuideToCPPBegineer01/blob/master/LabTest04/Question01/found.PNG)
 
 
 
 **Question1 : Not Found**
 
-![Question01  Not Found]()
+![Question01  Not Found](https://github.com/yclim95/GuideToCPPBegineer01/blob/master/LabTest04/Question01/not_found.PNG)
 
 
 
 **Question2**
 
-![Question02]()
+![Question02](https://github.com/yclim95/GuideToCPPBegineer01/blob/master/LabTest04/Question02/positiveInt.PNG)

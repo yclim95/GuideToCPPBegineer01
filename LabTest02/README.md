@@ -1,4 +1,4 @@
-# Lab Test 02
+# Lab Test 02 (Repetition/ Looping)
 
 ## Task:
 

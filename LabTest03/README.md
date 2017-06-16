@@ -1,4 +1,4 @@
-# Lab Test 01
+# Lab Test 03 (Function)
 
 ## Task:
 

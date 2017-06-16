@@ -26,6 +26,8 @@ int main()
 ## Lab Test
 1. [Lab Test01](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest01)
 2. [Lab Test02](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest02)
+3. [LabTest 03](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest03)
+4. [LabTest 04](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest04)
 
 ## Compile Program using clang (Terminal)
 ```vim
