@@ -19,8 +19,9 @@ int main()
 2. [Lecture 02](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/Lecture02)
 3. [Lecture 03](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/Lecture03)
 4. [Lecture 04](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/Lecture04)
-5. [Lecture05](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/Lecture05)
-5. [Lecture06](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/Lecture06)
+5. [Lecture 05](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/Lecture05)
+6. [Lecture 06](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/Lecture06)
+7. [Lecture 07](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/Lecture07)
 
 ## Lab Test
 1. [Lab Test01](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest01)
