@@ -29,7 +29,7 @@ int main()
 2. [Lab Test02](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest02)
 3. [LabTest 03](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest03)
 4. [LabTest 04](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest04)
-5. [LabTest 05](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest05)
+5. [LabTest 06](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest06)
 
 ## Compile Program using clang (Terminal)
 ```vim
