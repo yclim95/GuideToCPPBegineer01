@@ -5,4 +5,4 @@
 
 **Read from File**
 
-![Read from File](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest05/studentRead.PNG)
+![Read from File](https://github.com/yclim95/GuideToCPPBegineer01/blob/master/LabTest06/studentRead.PNG)
