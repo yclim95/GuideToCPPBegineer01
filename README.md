@@ -31,6 +31,9 @@ int main()
 4. [LabTest 04](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest04)
 5. [LabTest 06](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/LabTest06)
 
+## Assignment
+1. [Assignment](https://github.com/yclim95/GuideToCPPBegineer01/tree/master/Assignment)
+
 ## Compile Program using clang (Terminal)
 ```vim
 $ g++ -o example example.cpp
