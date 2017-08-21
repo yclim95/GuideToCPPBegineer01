@@ -3,6 +3,10 @@
 #include <cstdlib>
 #include <unistd.h>
 #include <string>
+#include <iomanip>
+#include <fstream>
+#include <cctype>
+#include <vector>
 
 using namespace std;
 

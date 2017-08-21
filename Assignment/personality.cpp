@@ -6,17 +6,14 @@
 #include <fstream>
 #include <cctype>
 #include <vector>
-#include "questions.cpp"
+#include "quiz.h"
 #include "system.h"
 
 using namespace std;
 
 //Function Declaration
-void clear_screen();
-void mySleep(int sleepMs);
 void displayError(string error);
 void menu(int &choice);
-void exit();
 void displayInstruction();
 void choice();
 void displayPersonality();
@@ -73,26 +70,6 @@ int main()
     return 0;
 }
 
-//Clear Console Screen
-void clear_screen()
-{
-    #ifdef WINDOWS
-        system("CLS");
-    #else
-        // Assume POSIX
-        system("clear");
-    #endif
-}
-
-//Pause the console 
-void mySleep(int sleepMs)
-{
-    #ifdef WINDOWS
-        Sleep(sleepMs);
-    #else
-        usleep(sleepMs * 1000); // usleep takes sleep time in us (1 millionth of a second)
-    #endif
-}
 
 //ErrorMessage
 void displayError(string error)
@@ -111,20 +88,6 @@ void menu(int &choice)
     cin >> choice;
 }
 
-//Exit Console
-void exit()
-{
-    clear_screen();
-    mySleep(1000);
-    cout << "E";
-    mySleep(1000);
-    cout << "X";
-    mySleep(1000);
-    cout << "I";
-    mySleep(1000);
-    cout << "T" << endl;
-    terminate();
-}
 
 //Display Instructions 
 void displayInstruction()
