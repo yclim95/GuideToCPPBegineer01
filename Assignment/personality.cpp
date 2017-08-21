@@ -5,6 +5,9 @@
 #include <iomanip>
 #include <fstream>
 #include <cctype>
+#include <vector>
+#include "questions.cpp"
+#include "system.h"
 
 using namespace std;
 
@@ -23,7 +26,6 @@ bool is_alpha(string name);
 void displayProfile();
 void removeWhitespace(string &str);
 void displayProfile(string fileName);
-void displayChoices(int &choice);
 
 //Main Function (Start)
 int main()
@@ -142,6 +144,7 @@ void displayInstruction()
     choice();
 }
 
+//Display Personality Description/Theory Text
 void displayPersonality()
 {
     clear_screen();
@@ -253,6 +256,7 @@ void displayPersonality()
     choice();
 }
 
+//Making a Choice
 void choice()
 {
     int choice = 0;
@@ -266,6 +270,7 @@ void choice()
         main();
 }
 
+//Display Quiz Instruction 
 void displayQuizInstruction()
 {
     int choice = 0;
@@ -297,19 +302,15 @@ void displayQuizInstruction()
         exit();
 }
 
+//Run the Quiz 
 void run()
 {
     string name = " ";
     int age = 0;
     int choice = 0;
     ofstream outProfile;
-    string questions[] = {"You find it difficult to introduce yourself to other people.",
-                          "You often get so lost in thoughts that you ignore or forget your surroundings.",
-                          "You try to respond to your e-mails as soon as possible and cannot stand a messy inbox.",
-                          "You find it easy to stay relaxed and focused even when there is some pressure.",
-                          "You do not usually initiate conversations.",
-                          "You rarely do something just out of sheer curiosity.",
-                          "You feel superior to other people."};
+    Quiz quiz;
+    vector <string> questions;
 
     outProfile.open("profile.txt");
     if (outProfile.is_open())
@@ -337,16 +338,10 @@ void run()
             cout << "Age: ";
             cin >> age;
         }
-
-        outProfile << name << "," << age << endl;
-
-        for (int i = 0; i < sizeof(questions) / sizeof(questions[0]);
-             i++)
-        {
-            cout << "Questions #" << (i+1) << endl;
-            cout << questions[i] << endl;
-            displayChoices(choice);
-        }
+        
+        quiz.setQuestions(questions);
+        quiz.displayQuestions(questions, choice);
+        
     }
     else
     {
@@ -357,6 +352,7 @@ void run()
     cout << "\nRecords successfully written to employee.txt \n";
 }
 
+//Check if string is alpahet
 bool is_alpha(string name)
 {
     int count = 0;
@@ -369,7 +365,7 @@ bool is_alpha(string name)
     return (count == name.length()) ? true : false; 
 }
 
-
+// Remove WhiteSpaces (String)
 void removeWhitespace(string &str)
 {
     for (size_t i = 0; i < str.length(); i++)
@@ -411,19 +407,3 @@ void displayProfile(string fileName)
     inProfile.close();
 }
 
-void displayChoices(int &choice)
-{
-    cout << "1. Strongly Agree" << endl;
-    cout << "2. Agree" << endl;
-    cout << "3. Neither Agree Nor Disagree" << endl;
-    cout << "4. Disagree" << endl;
-    cout << "5. Strongly Disagree" << endl;
-    cout << "6. Exit" << endl;
-    cin >> choice;
-
-    if (choice == 6)
-    {
-        exit();
-    }
-    
-}
