@@ -302,6 +302,7 @@ void run()
             cin >> age;
         }
         
+        outProfile << name << "," << age << endl;
         quiz.setQuestions(questions);
         quiz.displayQuestions(questions, choice);
         
