@@ -41,8 +41,8 @@ class Quiz
     string personalityType = "";
     string strategyType = "";
     string personalityCode = "";
-    float personalitiesTotal [8] = {0};
-    float categoriesTotal [4] = {0};
+    vector <float> personalitiesTotal(8, 0);
+    vector <float> categoriesTotal(4,0);
     vector <string> roles {"Analyst", "Diplomats", "Sentinels", "Explorers"};
     vector <string> strategies {"Confident Individualism", "People Mastery", "Constant Improvement", "Social Engagement"};
 
@@ -50,6 +50,16 @@ class Quiz
     void setQuestions(vector<string> & questions);
     void displayChoices(int &choice);
     void displayQuestions(vector<string> & questions, int &choice);
+    vector <float> getPersonalitiesTotal();
+    vector <float> getCategoriesTotal();
+    vector <string> getRoles();
+    vector <string> getStrategies();
+    string getPersonalityType();
+    string setPersonalityType(string personalityType);
+    string getStrategyType();
+    string setStrategyType(string strategyType);
+    string getPersonalityCode();
+    string setPersonalityCode(string personalityCode);
 };
 
 #endif
