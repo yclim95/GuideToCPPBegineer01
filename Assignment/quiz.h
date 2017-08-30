@@ -15,10 +15,41 @@ using namespace std;
 
 class Quiz
 {
-    public:
-      void setQuestions(vector<string> & questions);
-      void displayChoices(int &choice);
-      void displayQuestions(vector<string> & questions, int &choice);
+  private:
+    vector <string> personalities {"Introvert", "Intuitive", "Judging", "Assertive", "Introvert", "Observant",
+                                    "Thinking", "Judging", "Intuitive", "Feeling", "Prospecting", "Judging",
+                                    "Extrovert", "Observant", "Thinking", "Judging", "Thinking", "Feeling",
+                                    "Judging", "Thinking", "Intuitive", "Turbelent", "Introvert", "Judging"
+                                    "Observant", "Intuitive", "Judging", "Feeling", "Assertive", "Observant",
+                                    "Extrovert", "Prospecting", "Feeling", "Extrovert", "Intuitive", "Prospecting",
+                                    "Introvert", "Prospecting", "Intuitive", "Thinking", "Prospecting", "Feeling",
+                                    "Assertive", "Judging", "Thinking", "Feeling", "Extrovert", "Judging",
+                                    "Assertive", "Intuitve", "Intuitive", "Turbelent", "Observant", "Turbelent",
+                                    "Introvert", "Prospecting", "Turbelent", "Feeling", "Intuitive,", "Extrovert"};
+
+    vector <string> categories {"Mind", "Energy", "Tactics", "Identity", "Mind", "Energy",
+                                "Nature", "Tactics", "Energy", "Nature", "Tactics", "Tactics",
+                                "Mind", "Energy", "Nature", "Tactics", "Nature", "Nature",
+                                "Tactics", "Nature", "Energy", "Identity", "Mind", "Tactics",
+                                "Energy", "Energy", "Tactics", "Nature", "Identity", "Energy",
+                                "Mind", "Tactics", "Nature", "Mind", "Energy", "Tactics",
+                                "Mind", "Nature", "Energy", "Nature", "Tactics", "Nature",
+                                "Identity", "Tactics", "Nature", "Nature", "Mind", "Tactics",
+                                "Identity", "Energy", "Energy", "Identity", "Energy", "Identity",
+                                "Mind", "Tactics", "Identity", "Nature", "Energy", "Mind"};
+                                
+    string personalityType = "";
+    string strategyType = "";
+    string personalityCode = "";
+    float personalitiesTotal [8] = {0};
+    float categoriesTotal [4] = {0};
+    vector <string> roles {"Analyst", "Diplomats", "Sentinels", "Explorers"};
+    vector <string> strategies {"Confident Individualism", "People Mastery", "Constant Improvement", "Social Engagement"};
+
+  public:
+    void setQuestions(vector<string> & questions);
+    void displayChoices(int &choice);
+    void displayQuestions(vector<string> & questions, int &choice);
 };
 
 #endif
