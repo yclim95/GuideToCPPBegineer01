@@ -110,3 +110,54 @@ void Quiz::displayQuestions(vector<string> &questions, int &choice)
     clear_screen();
   }
 }
+
+void Quiz::getCategoriesTotal()
+{
+  return categoriesTotal;
+}
+
+void Quiz::getPersonalitiesTotal()
+{
+  return personalitiesTotal;
+}
+
+void Quiz::getRoles()
+{
+  return roles;
+}
+
+void Quiz::getStrategies()
+{
+  return strategies;
+}
+
+void Quiz::getPersonalityCode()
+{
+  return personalityCode;
+}
+
+string Quiz::setPersonalityCode(string personalityCode)
+{
+  this->personalityCode = personalityCode;
+}
+
+void Quiz::getPersonalityType()
+{
+  return personalityType;
+}
+
+string Quiz::setPersonalityType(string personalityType)
+{
+  this->personalityType = personalityType;
+}
+
+void Quiz::getStrategyType()
+{
+  return strategyType;
+}
+
+string Quiz::setStrategyType(string strategyType)
+{
+  this->strategyType = strategyType;
+}
+
